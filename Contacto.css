@@ -1,0 +1,113 @@
+*{ 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#Contact {
+    height: 660px;
+    width: 50%;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+#Contact:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+
+.Cont{
+    top: 240px;
+    position: relative;
+    user-select: none;
+}
+
+.mail{
+    top: 260px;
+    position: relative;
+    user-select:text;
+    text-decoration: underline;
+}
+
+.botones{
+    position: relative;
+    top: 300px;
+}
+
+.boton-linkedin {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(0, 68, 255);
+    border-radius: 10px;
+    color: white;
+    font: bold;
+    border: none;
+    transition-property: all;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.boton-linkedin:hover {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(97, 97, 97);
+    border-radius: 10px;
+    color: white;
+    font: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-twitter {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(0, 195, 255);
+    border-radius: 10px;
+    color: white;
+    font: bold;
+    border: none;
+    transition-property: all;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.boton-twitter:hover {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(97, 97, 97);
+    border-radius: 10px;
+    color: white;
+    font: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-instagram {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(183, 0, 255);
+    border-radius: 10px;
+    color: white;
+    font: bold;
+    border: none;
+    transition-property: all;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.boton-instagram:hover {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(97, 97, 97);
+    border-radius: 10px;
+    color: white;
+    font: bold;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    #Contact{
+        width: auto;
+    }
+}
