@@ -1,0 +1,72 @@
+*{ 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Container{
+    display: flex;
+}
+
+#About {
+    height: 660px;
+    width: 50%;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+#About:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+
+.about-title {
+    padding-top: 100px;
+}
+.who-am-i {
+    padding-top: 55px;
+}
+
+.argentine {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.boton-cv {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(0, 64, 255);
+    border-radius: 10px;
+    color: white;
+    font: bold;
+    border: none;
+    transition-property: all;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.boton-cv:hover {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(97, 97, 97);
+    border-radius: 10px;
+    color: white;
+    font: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .Container{
+        flex-direction: column;
+    }
+
+    #About{
+        width: auto;
+    }
+
+}
+
+

@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    user-select: none;
+}
+
+#Home {
+    height: 457px;
+    background-image: url(img-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding-top: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Encabezado {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(66, 66, 66);
+    opacity: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    padding: 50px;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 50px;
+}
+.navigation ul li{
+    display: inline-block;
+    color: white;
+}
+.navigation ul li a {
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    color: rgb(26, 26, 26);
+} 
+
+.contenido-home {
+    text-align: center;
+    padding-top: 70px;
+}
+
+h1 {
+    color: rgb(26, 26, 26);
+}
+
